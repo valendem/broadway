@@ -6,17 +6,17 @@ body {
 h2 {
     font-size: 32px;
     font-weight: bold;
-    color: dimgray;
+    color: black;
 }
 
 h3 {
     font-size: 23px;
     font-weight: bold;
-    color: dimgray;
+    color: black;
 }
 
 p {
-    color: dimgray;
+    color: black;
     font-size: 14px;
 }
 
@@ -48,7 +48,24 @@ p {
   font-weight: bold;
   opacity: 0.75;
   font-size: 70px;
-  line-height: 140px;
-  padding: 55px;
+  line-height: 130px;
+  position: static;
+}
+
+.nyimage {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 30px;
+}
+
+.nycaption {
+  display: inline;
+  color: white;
+  font-weight: bold;
+  opacity: 0.75;
+  font-size: 23px;
+  line-height: 30px;
   position: static;
 }
