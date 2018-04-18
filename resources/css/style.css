@@ -20,6 +20,10 @@ p {
     font-size: 14px;
 }
 
+a {
+  color: white;
+}
+
 .menu {
     font-size: 18px;
     font-weight: bold;
@@ -46,7 +50,7 @@ p {
   display: inline;
   color: white;
   font-weight: bold;
-  opacity: 0.75;
+  opacity: 0.95;
   font-size: 70px;
   line-height: 130px;
   position: static;
@@ -64,7 +68,7 @@ p {
   display: inline;
   color: white;
   font-weight: bold;
-  opacity: 0.75;
+  opacity: 0.95;
   font-size: 23px;
   line-height: 30px;
   position: static;
